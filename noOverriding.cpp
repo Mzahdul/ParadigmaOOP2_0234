@@ -4,7 +4,12 @@ using namespace std;
 class baseclass{
 public:
     virtual void perkenalan()final{
-    
-        cout << "Hallo Saya Function dari base class";
+            cout << "Hallo Saya Function dari base class";
+    }
+};
+class derivedclass : public baseclass{
+public:
+    void perkenalan1(){
+        cout << "Hallo Saya Function dari derived class";
     }
 };
