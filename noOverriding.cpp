@@ -5,6 +5,6 @@ class baseclass{
 public:
     virtual void perkenalan()final{
     
-        cout << "Hallo Saya Function dari derived class";
+        cout << "Hallo Saya Function dari base class";
     }
 };
